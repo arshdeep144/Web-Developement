@@ -1,0 +1,30 @@
+[
+  {
+    showDate: "May 3, 2018",
+    startTime: "7:30pm",
+    performanceName: "Black Panther - The Musical",
+    type: "Musical",
+    theatreName: "Champion"
+  },
+  {
+    showDate: "May 3, 2018",
+    startTime: "4:00pm",
+    performanceName: "Hamlet",
+    type: "Play",
+    theatreName: "Champion"
+  },
+  {
+    showDate: "May 3, 2018",
+    startTime: "8:30pm",
+    performanceName: "UOIT Orchestra - Schumann's Spring",
+    type: "Concert",
+    theatreName: "Diamond"
+  },
+  {
+    showDate: "May 4, 2018",
+    startTime: "9:00pm",
+    performanceName: "UOIT Orchestra - Strauss & Wagner",
+    type: "Concert",
+    theatreName: "Diamond"
+  }
+]

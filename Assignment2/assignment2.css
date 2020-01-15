@@ -1,0 +1,16 @@
+#map-canvas {
+  display:none;
+  width:500px;
+  height:500px;
+  margin:50px 0 80px 0;
+  float: left;
+}
+#weather {
+  background-color: lightBlue;
+  display:none;
+  border: 2px solid blue;
+  border-radius: 8px;
+  float: right;
+  width: 200px;
+  margin: 50px 400px 0 0;
+}

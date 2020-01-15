@@ -1,0 +1,7 @@
+doctype xml
+performances
+  each p in performances
+    performance
+      show(name= p.performanceName, type=p.type)
+      datetime(date=p.showDate, time=p.startTime)
+      location(theatre=p.theatreName)

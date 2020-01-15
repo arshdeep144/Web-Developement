@@ -1,0 +1,80 @@
+/*  Header */
+.pageHeader img{
+	width: 100px;
+}
+
+.pageHeader h1{
+  display: inline-block;
+  vertical-align:middle;
+
+  font-size: 24pt;
+}
+
+.pageHeader{
+  display: table-cell;
+  background-color: darkBlue;
+  color: white;
+  width:100%;
+}
+
+.header-container{
+  display: table;
+  width: 100%;
+}
+
+/*  Navigation Bar */
+.navigation{
+  background-color: darkBlue;
+  padding: 15px;
+}
+
+.navigation ul{
+  margin: 10px;
+}
+
+.navigation li{
+  list-style: none;
+}
+
+.navigation a{
+  color: #f0f0ff;;
+  font-weight: bold;
+  padding-right: 40px;
+  font-size: 12pt;
+  text-decoration: none;
+}
+
+/* Main Page Body */
+.header h2{
+  font-size: 12pt;
+  background-color: darkBlue;
+  margin: 0;
+  color: white;
+  vertical-align:middle;
+  padding: 0.2em;
+  padding-left: 1em;
+
+}
+section{
+  border-style: solid;
+  border-color: darkBlue;
+  margin: 5pt;
+	width: 95%;
+	float:right;
+}
+
+.body {
+  border: 1px;
+  border-style: solid;
+  border-color: darkBlue;
+  background-color: #f0f0ff;
+  padding: 1em;
+}
+
+/* Schedule  */
+table {
+    border: 1px;
+    border-style: solid;
+    border-color: darkBlue;
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+[
+  {
+    name: "Champion",
+    address: "1 Winners Drive",
+    phone: "111-111-1111"
+  },
+  {
+    name: "Heartbreak",
+    address: "22 Lonely Road",
+    phone: "222-222-2222"
+  },
+  {
+    name: "Diamond",
+    address: "333 Sparkle Avenue",
+    phone: "333-333-3333"
+  }
+]

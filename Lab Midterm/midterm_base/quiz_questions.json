@@ -1,0 +1,18 @@
+{"title": "Are You a True Canadian?",
+ "questions": [
+               {"question": "How old is Canada?",
+                "answers": ["100 years", "125 years", "150 years", "175 years", "200 years", "225 years"],
+                "correctAnswerIndex": 2},
+               {"question": "Who was Canada's first prime minister?",
+                "answers": ["Justin Trudeau",
+                          "Wilfred Laurier",
+                          "Louis Riel",
+                          "Wayne Gretzky",
+                          "John A. MacDonald"],
+                "correctAnswerIndex": 4},
+              {"question": "What is the capital of Ontario?",
+               "answers": ["Ottawa", "Toronto", "Oshawa", "Barrie"],
+               "correctAnswerIndex": 1},
+              {"question": "After English, what is the other official language of Canada?",
+               "answers": ["Spanish", "Japanese", "Italian", "French"],
+               "correctAnswerIndex": 3}]}

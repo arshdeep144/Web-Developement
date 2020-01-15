@@ -1,0 +1,78 @@
+html
+  head
+    title= title
+    link(rel="stylesheet",
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css",
+         integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7",
+         crossorigin="anonymous")
+
+    link(rel="stylesheet",
+         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css",
+         integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r",
+         crossorigin="anonymous")
+    link(rel="stylesheet", href="styles/reservations.css")
+    script(type="text/javascript", src="scripts/reservations.js")
+  body
+  form(action='/handleReservation', method='post', class='form-horizontal')
+    label(class='control-label col-md-2', for='theatreName') Theatre Name:
+    div(class='col-md-4 form-group')
+      select(type='text',
+            id='theatreName',
+            name='theatreName',
+            placeholder='Theatre Name',
+            class='form-control')
+
+    div(class='clearfix hidden-sm-up')
+
+    label(class='control-label col-md-2', for='performance') Performance:
+    div(class='col-md-4 form-group')
+      select(type='text',
+            id='performance',
+            name='performance',
+            placeholder='Performance',
+            class='form-control')
+
+    div(class='clearfix hidden-sm-up')
+
+    label(class='control-label col-md-2', for='firstName') First name:
+    div(class='col-md-4 form-group')
+      input(type='text',
+            id='firstName',
+            name='firstName',
+            placeholder='First name',
+            class='form-control')
+
+    div(class='clearfix hidden-sm-up')
+
+    label(class='control-label col-md-2', for='lastName') Last name:
+    div(class='col-md-4 form-group')
+      input(type='text',
+            id='lastName',
+            name='lastName',
+            placeholder='Last name',
+            class='form-control')
+
+    div(class='clearfix hidden-sm-up')
+
+    label(class='control-label col-md-2', for='address') Address:
+    div(class='col-md-4 form-group')
+      input(type='text',
+            id='address',
+            name='address',
+            placeholder='Address',
+            class='form-control')
+
+    div(class='clearfix hidden-sm-up')
+
+    label(class='control-label col-md-2', for='phone') Phone:
+    div(class='col-md-4 form-group')
+      input(type='text',
+            id='phone',
+            name='phone',
+            placeholder='Phone',
+            class='form-control')
+
+    div(class='clearfix hidden-sm-up')
+
+    div(class='col-md-offset-2 col-md-1')
+      button(type='submit', class='btn btn-secondary') Reserve
